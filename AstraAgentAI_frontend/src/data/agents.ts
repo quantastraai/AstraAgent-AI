@@ -1,0 +1,58 @@
+import type { Agent } from '../types'
+
+export const agents: Agent[] = [
+  {
+    id: 'research',
+    name: 'Nova Research',
+    role: 'Research Agent',
+    description: 'Deep web research, summarization, and citation-backed reports.',
+    status: 'online',
+    tasksCompleted: 128,
+    icon: '🔭',
+  },
+  {
+    id: 'code',
+    name: 'Orion Code',
+    role: 'Developer Agent',
+    description: 'Writes, reviews, and debugs code across multiple languages.',
+    status: 'online',
+    tasksCompleted: 342,
+    icon: '⚡',
+  },
+  {
+    id: 'writer',
+    name: 'Lyra Writer',
+    role: 'Content Agent',
+    description: 'Drafts blogs, emails, and marketing copy in your brand voice.',
+    status: 'busy',
+    tasksCompleted: 89,
+    icon: '✍️',
+  },
+  {
+    id: 'data',
+    name: 'Atlas Data',
+    role: 'Analytics Agent',
+    description: 'Analyzes datasets, builds charts, and surfaces insights.',
+    status: 'online',
+    tasksCompleted: 56,
+    icon: '📊',
+  },
+  {
+    id: 'support',
+    name: 'Vega Support',
+    role: 'Support Agent',
+    description: 'Handles customer queries with empathy and accuracy.',
+    status: 'offline',
+    tasksCompleted: 210,
+    icon: '💬',
+  },
+  {
+    id: 'planner',
+    name: 'Sirius Planner',
+    role: 'Workflow Agent',
+    description: 'Orchestrates multi-step tasks and coordinates other agents.',
+    status: 'online',
+    tasksCompleted: 74,
+    icon: '🛰️',
+  },
+]
